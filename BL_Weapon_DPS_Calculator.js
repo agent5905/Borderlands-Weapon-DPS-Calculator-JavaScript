@@ -55,7 +55,7 @@ function SafetyCheck(sCode) {
 				CanCalc = 1;
 			}
 			break;
-	    case 1:
+		case 1:
 			if (MagSize < 1) {
 				CanCalc = 0;
 				ErrAlert(1);
