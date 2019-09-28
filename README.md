@@ -1,5 +1,4 @@
 # Borderlands-Weapon-DPS-Calculator-JavaScript-Edition
-Borderlands Weapon DPS Calculator - JavaScript Edition
 This now has a template to use the math functions to generate the DPS values of Borderlands (TPS/2/3) weapons.
 Updated the javascript code and added css code to the template.
 
