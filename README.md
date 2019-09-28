@@ -3,6 +3,8 @@ This now has a template to use the math functions to generate the DPS values of 
 
 ![Image of BLWDPSCalc-JS](Screenshot_1.png)
 
+Here is an example website: (https://leftbased.github.io/Borderlands-Weapon-DPS-Calculator-JavaScript/)
+
 [changelog]
 
 v0.03<br />
