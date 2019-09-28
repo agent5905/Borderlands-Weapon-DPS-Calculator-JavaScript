@@ -136,5 +136,8 @@ function clearText(){
 	document.getElementById('CalcDPS').value = '0';
 }
 function openGitHub(){
-	window.open("https://github.com/LeftBased/Borderlands-Weapon-DPS-Calculator-JavaScript");
+	window.open("https://github.com/LeftBased/Borderlands-Weapon-DPS-Calculator-JavaScript")
+}
+function donate(){
+	window.open("https://paypal.me/internprimas")
 }
