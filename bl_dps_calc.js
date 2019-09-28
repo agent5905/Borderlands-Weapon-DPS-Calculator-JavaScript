@@ -135,3 +135,6 @@ function clearText(){
 	document.getElementById('wFirerate').value = '0';
 	document.getElementById('CalcDPS').value = '0';
 }
+function openGitHub(){
+	window.open("https://github.com/LeftBased/Borderlands-Weapon-DPS-Calculator-JavaScript");
+}
