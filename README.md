@@ -10,7 +10,7 @@ Here is an example website: (https://leftbased.github.io/Borderlands-Weapon-DPS-
 v0.04<br />
 - added elemental damage and element chance to the math formula.
 - updated the html file to include an option to add elemental data.
-- cleaned up javascript code (removed redudant code).
+- cleaned up javascript code (removed redundant code).
 - added a newer error alert code.
 - added new functions to calculator.
 - added weapon accuracy to form and calculator.
