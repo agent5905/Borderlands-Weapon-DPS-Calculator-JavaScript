@@ -138,6 +138,6 @@ function clearText(){
 function openGitHub(){
 	window.open("https://github.com/LeftBased/Borderlands-Weapon-DPS-Calculator-JavaScript")
 }
-function donate(){
+function openDonate(){
 	window.open("https://paypal.me/internprimas")
 }
