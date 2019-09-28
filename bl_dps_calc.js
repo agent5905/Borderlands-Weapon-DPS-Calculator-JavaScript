@@ -88,7 +88,7 @@ function ele_calc(){ //calculate with elemental chance/damage.
 	let secMFR = parseFloat(secMF + ReloadSpeed);
 	let zebra = parseFloat(ElementalDamage * secEle);
 	let TotalMagDamage = parseFloat(MagSize * WeaponDamage);
-	let FinalDPS = parseFloat(((TotalMagDamage / secMFR) + zebra)).toFixed(3);; 
+	let FinalDPS = parseFloat(((TotalMagDamage / secMFR) + zebra)).toFixed(3);
 
 	x = FinalDPS.toString();
 
