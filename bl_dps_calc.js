@@ -122,8 +122,8 @@ function BLCalculate() {
 }
 }
 function submit() {
-    WeaponDamage = document.getElementById("wDamage").value;
-    MagSize = document.getElementById("wMagSize").value;
+	WeaponDamage = document.getElementById("wDamage").value;
+	MagSize = document.getElementById("wMagSize").value;
 	ReloadSpeed = document.getElementById("wReloadSpeed").value;
 	FireRate = document.getElementById("wFirerate").value;
 	BLCalculate();
