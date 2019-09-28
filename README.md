@@ -7,6 +7,7 @@ Updated the javascript code and added css code to the template.
 v0.03<br />
 - introduced an html file with form elements that can be manipulated
 - adjusted code in the javascript. added css code to html file.
+
 v0.02<br />
 - added an error alert function
 - updated safety checks
