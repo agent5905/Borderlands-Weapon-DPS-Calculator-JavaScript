@@ -2,6 +2,7 @@
 This now has a template to use the math functions to generate the DPS values of Borderlands (TPS/2/3) weapons.
 
 [changelog]
+
 v0.03<br />
 - introduced an html file with form elements that can be manipulated
 - adjusted code in the javascript. added css code to html file.
