@@ -13,6 +13,8 @@ v0.04<br />
 - cleaned up javascript code (removed redudant code).
 - added a newer error alert code.
 - added new functions to calculator.
+- added weapon accuracy to form and calculator.
+
 v0.03<br />
 - introduced an html file with form elements that can be manipulated
 - adjusted code in the javascript. added css code to html file.
