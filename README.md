@@ -2,6 +2,7 @@
 This now has a template to use the math functions to generate the DPS values of Borderlands (TPS/2/3) weapons.
 
 ![Image of BLWDPSCalc-JS](Screenshot_1.png)
+
 [changelog]
 
 v0.03<br />
