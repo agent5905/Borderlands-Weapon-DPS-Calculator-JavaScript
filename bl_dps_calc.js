@@ -62,7 +62,7 @@ function run_datacheck(){ //runs a small input data check.
 	}
 	if (isNaN(ReloadSpeed)) {
 		ErrAlert(1,"reload speed");
-	}	
+	}
 	if (isNaN(WeaponDamage)) {
 		ErrAlert(1,"weapon damage");
 	}
@@ -85,7 +85,7 @@ function ele_calc(){ //calculate with elemental chance/damage.
 
 	let secEle = parseFloat((ElementalChance / 1000) * 10).toFixed(3); //0.345% ?
 	let secMF = parseFloat(MagSize / FireRate);
-	let secMFR = parseFloat(secMF + ReloadSpeed);
+	let secMFR = parseFloat(secMF + parseFloat(ReloadSpeed));
 	let zebra = parseFloat(ElementalDamage * secEle);
 	let TotalMagDamage = parseFloat(MagSize * WeaponDamage);
 	let FinalDPS = parseFloat(((TotalMagDamage / secMFR) + zebra)).toFixed(3);
@@ -101,10 +101,10 @@ function ele_acc_calc(){ //calculate with elemental chance/damage with base accu
 	let secEle = parseFloat((ElementalChance / 1000) * 10).toFixed(3); //34.5 = 0.345% ?
 	let secAcc = parseFloat((WeaponAccu / 1000) * 10).toFixed(3); //convert accuracy to a percentage!
 	let secMF = parseFloat(MagSize / FireRate);
-	let secMFR = parseFloat(secMF + ReloadSpeed);
+	let secMFR = parseFloat(secMF + parseFloat(ReloadSpeed));
 	let zebra = parseFloat(ElementalDamage * secEle);
 	let TotalMagDamage = parseFloat(MagSize * WeaponDamage);
-	let FinalDPS = parseFloat(secAcc * (((TotalMagDamage / secMFR) + zebra))).toFixed(2); 
+	let FinalDPS = parseFloat(secAcc * (((TotalMagDamage / secMFR) + zebra))).toFixed(2);
 
 	x = FinalDPS.toString();
 
@@ -115,9 +115,9 @@ function reg_calc(){ //calculate without elemental chance/damage.
 	run_datacheck();
 
 	let secMF = parseFloat(MagSize / FireRate);
-	let secMFR = parseFloat(secMF + ReloadSpeed);
+	let secMFR = parseFloat(secMF + parseFloat(ReloadSpeed));
 	let TotalMagDamage = parseFloat(MagSize * WeaponDamage);
-	let FinalDPS = parseFloat(TotalMagDamage / secMFR).toFixed(2); 
+	let FinalDPS = parseFloat(TotalMagDamage / secMFR).toFixed(2);
 
 	x = FinalDPS.toString();
 	console.log("Weapon DPS: " + x);
